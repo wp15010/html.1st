@@ -2,7 +2,16 @@
     	color: #535353;
     	font-size: 13px;
         background: #ffccff;
+        text-align: center;
     }
+    #wrap{
+        width:770px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+
+
     h2 {font-size: 185%;
     	border-left: 15px solid #668800;
     	/*border-top: 1px solid #000000;*/
@@ -16,11 +25,14 @@
     	text-align: right;
     	border-top: 1px solid #000000;
     	padding-top: 10px;
+        clear: left;
     }
 
 	h3{padding: 5px;
         border: 1px solid #668800;
         font-size: 154%;
+        clear: left;
+        box-shadow: 5px 5px 5px
     }
     h4{font-size: 124%;
     }
@@ -38,5 +50,30 @@
     td{border: 1px solid #999999;
     padding: 10px;
     background-color: #eeeeee;
-}
+    }
+    
+    .itemphoto{
+        float: left;
+    margin-right: 20px;
+    margin-bottom: 50px
+    }
 
+    ul{background-color: #88aa00;
+        padding: 10px 20px;
+        box-shadow: 5px 5px 5px
+    }
+    
+    li{list-style-type: none;
+        display:inline;
+        padding-right: 20px;
+
+    }
+    li a:link{color: #ffffff;
+    }
+
+    li a:visited{color: #eeee00;
+    }
+
+    li a:hover{
+        color: #000000;
+    }

@@ -16,6 +16,7 @@
     	border-left: 15px solid #668800;
     	/*border-top: 1px solid #000000;*/
     	padding-left: 10px;
+        overflow: hidden;
     }
     body{line-height: 1.5;
     }
@@ -57,7 +58,7 @@
     margin-right: 20px;
     margin-bottom: 50px
     }
-
+    /*
     ul{background-color: #88aa00;
         padding: 10px 20px;
         box-shadow: 5px 5px 5px
@@ -76,4 +77,43 @@
 
     li a:hover{
         color: #000000;
+    }
+    */
+    ul{
+        list-style-type: none;
+        margin: 5px 0px;
+        padding: 0px;
+        font-size: 12px;
+        overflow: hidden;
+        background-color: #88aa00;
+    }
+    li{
+        float: left;
+        margin-right: 0px;
+        width: 100px;
+        text-align: center;
+        border-right: solid 1px #ffffff;
+    }
+    li:first-child a{
+        border-left: solid 1px #ffffff;
+    }
+    li a{
+        display: block;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border-bottom: solid 5px transparent;
+    }
+    li a:link{
+
+        color: #ffffff;
+        text-decoration: none;
+    }
+    li a:visited{
+        color: #eeee00;
+        text-decoration: none;
+    }
+    li a:hover{
+        color: #000000;
+        text-decoration: none;
+        border-bottom: solid 5px #00ccff;
     }
